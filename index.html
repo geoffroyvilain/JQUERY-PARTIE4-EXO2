@@ -1,0 +1,31 @@
+<!-- Demander à l'aide d'un formulaire les 5 dernières notes d'un élève.
+Calculer sa moyenne et déterminer son appréciation.
+    Si la moyenne de l'élève est supérieure ou égale à 0 et inférieure à 10, il aura comme appréciation : "En dessous de la moyenne".
+    Si la moyenne de l'élève est supérieure ou égale à 10 et inférieure à 13, il aura comme appréciation : "Moyen".
+    Si la moyenne de l'élève est supérieure ou égale à 13 et inférieure à 16, il aura comme appréciation : "Bien".
+    Si la moyenne de l'élève est supérieure ou égale à 16 et inférieure à 20, il aura comme appréciation : "Très bien".
+    Si la moyenne de l'élève est égale à 20, il aura comme appréciation : "Excellent".
+Afficher la moyenne et l'appréciation de l'élève.
+-->
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Exercice 2</title>
+  </head>
+  <body>
+  <form id="note">
+    <ol>
+      <li><label for="firstNote">Première note : </label><input type="number" id="firstNote" /></li>
+      <li><label for="secondNote">Deuxième note : </label><input type="number" id="secondNote" /></li>
+      <li><label for="thirdNote">Troisième note : </label><input type="number" id="thirdNote" /></li>
+      <li><label for="fourthNote">Quatrième note : </label><input type="number" id="fourthNote" /></li>
+      <li><label for="fifthNote">Cinquième note : </label><input type="number" id="fifthNote" /></li>
+    </ol>
+  </form>
+  <button name="average" id="average">Moyenne et appréciation</button>
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
